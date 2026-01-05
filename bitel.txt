@@ -1,9 +1,9 @@
-# ZIVPN Configuration
-server=ns-premiusa1.vpnjantit.com
-port=53
-username=Mario1-vpnjantit.com
-password=hhhhhhhh
-key=671742f4463b584e4aa733df18711584f7b572fadb0133b3ce3973cc529a541f
-protocol=slowdns
-dns=1.1.1.1
-type=vpnjantit
+
+# ZIVPN CLOUD CONFIG
+# Auto-import configuration
+
+CONNECTION_STRING=Mario1-vpnjantit.com:hhhhhhhh@ns-premiusa1.vpnjantit.com:53
+ENCRYPTION_KEY=671742f4463b584e4aa733df18711584f7b572fadb0133b3ce3973cc529a541f
+CONNECTION_TYPE=SLOWDNS
+DNS_RESOLVER=1.1.1.1
+AUTO_START=true
